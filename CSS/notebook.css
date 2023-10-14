@@ -1,12 +1,3 @@
-body,ul,li,a{
-    margin: 0px;
-    padding: 0px;
-    list-style:none;
-    text-decoration: none;				
-}/*取消所有表格的格式*/
-body{
-    background-color: #ffffff;
-}
 :root{
     --header-font:"Kanit", sans-serif;
     --body-font:"Helvetica Neue";
@@ -25,8 +16,8 @@ body{
     
     padding: 15px 25px;
 }
-header{
-    margin-bottom: -200px!important;
+#title .heading span{
+    background:#504e4aad!important;
 }
 .heading{
     text-align: center;
@@ -66,8 +57,12 @@ header{
     width:20%;
 }
 .note_left>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align:center;
-    padding: 0 auto;
+    padding: 0px auto;
+    margin-top: 15px;
     width: 100%;
 }
 .note_right{
@@ -94,11 +89,7 @@ header{
     background-position: 100% 0px !important;
     border-radius: 50px !important;
 }
-/* .first>p>a{
-    color: #fff;
-    font-size:14px;
-    line-height:1em;
-} */
+
 /* --- Start progress bar --- */
 .process-wrapper {
     margin:auto;
@@ -129,7 +120,7 @@ header{
         border-radius:50%;
         border:solid 2px #aaa;
         transition:all ease 0.3s;
-            
+        margin-bottom: 2px;
     }
     #progress-bar-container li.active:before, #progress-bar-container li:hover:before {
     border:solid 2px #fff;
@@ -224,11 +215,6 @@ header{
         color: var(--pblue);
         text-align: left;
     }
-    p{
-        color: var(--pblue);
-        font-size:14px;
-        line-height:1.8em;
-    }
     #progress-content-section .section-content {
         display:none;
         animation: FadeInUp 700ms ease 1;
@@ -256,3 +242,39 @@ header{
         transform:scale(0.8);
     }
 }
+
+#Table_2{
+    flex-direction: column;
+    max-width: 100%;
+    margin: 10px auto;
+    border-collapse: separate;
+    border: 3px solid #4d90ee;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #e6f9fc;
+
+}
+#Table_2 tr td{
+    height: 25px;
+    line-height: 25px;
+    border: 10px solid #e6f9fc;
+    resize: none;
+    overflow: auto;
+    text-align: center;
+    margin: 20px 20px;
+}
+#Table_2 tr:nth-child(1){
+    font-size: 18px;
+    line-height: 36px;
+    margin: 30px auto;
+    margin-bottom: 20px;
+    
+}
+#Table_2 tr:nth-child(1):hover{
+    background-color:#188fff00;
+}
+#Table_2 tr:hover{
+    background-color:#6daeeb73;
+    border-radius: 10px;
+}
+

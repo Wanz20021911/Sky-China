@@ -1,9 +1,5 @@
-body{
-  width: 100%;
-}
-*{
-    margin: 0;
-    padding: 0;
+.hp{
+  width: 100%!important;
 }
 .timeline {
   display: flex;

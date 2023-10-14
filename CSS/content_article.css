@@ -14,7 +14,7 @@ body{
     flex-direction: column;
 } */
 .banner{
-    margin-top: -120px;
+    /* margin-top: -120px; */
 }
 .banner img{
     width: 100%;
@@ -23,8 +23,6 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%;
-    background-size: cover;
 }
 
 .content{
@@ -50,9 +48,9 @@ body{
     padding: 10px; */
     /* top: vh; */
     flex: 0 0 auto;
-    height: 100vh;
+    height: 100%;
     float:left;
-    width: 20%;
+    width: 16.7%;
 
     /* padding:10px 0; */
     /* margin: 16px 0px!important; */
@@ -64,7 +62,6 @@ body{
     margin: 0px;
     padding: 10px;
     top: 400px;
-    width: 205px;/*TODO: */
 }
 .stickybar a {
     color: var(--darkBlue);
@@ -96,7 +93,7 @@ u{
 } */
 .content_right{
     /* margin-top: -25px; */
-    width: 80%;
+    width: 83.3%;
     margin-left: 20px;
     margin-left: auto;
     /* float: right; */
@@ -125,10 +122,8 @@ u{
 	/* css注释： 设置行高为50px */ 	
 }
 .content_left.sticky {
-    position: fixed;
-    top: 100px;
-    width: 205px;/*ODO:*/
-    /* width: var(16.7%*90%*(innerWidth)); */
+  position: fixed;
+  top: 100px;
 }
 .article{
 	flex: 0 0 auto;/*解决高度变形问题*/
