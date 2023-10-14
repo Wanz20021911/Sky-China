@@ -1,0 +1,15 @@
+.wave{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#4973ff;
+}
+.wave>span{
+    position: absolute;
+    width: 325vh;
+    height: 325vh;
+    top: 0;
+    left: 50;
+    background-color: rgb(255, 255, 255);
+}
