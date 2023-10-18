@@ -243,7 +243,6 @@ html{
     /* transform: scale(1.8); */
     letter-spacing: 1px;
     word-spacing: 2px;
-    text-transform:lowercase;/*仅有小写*/
     margin: 30px 0;
     line-height: 1.5!important;
     opacity: var(--progress);
