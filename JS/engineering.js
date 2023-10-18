@@ -37,11 +37,9 @@ $.fn.timeline = function() {
         max = $(this).height() + $(this).offset().top;
         var that = $(this);
         if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
-        // selectors.item.removeClass(selectors.activeClass);
-        selectors.item.last().addClass(selectors.activeClass);
-        } else if (pos <= max - 40 && pos >= min) {
-        
-        $(this).addClass(selectors.activeClass);//将当前项添加为活动项。
+            selectors.item.last().addClass(selectors.activeClass);
+        } else if (pos <= max + 150 && pos >= min-400) {
+            $(this).addClass(selectors.activeClass);//将当前项添加为活动项。
         }
     });
     });
