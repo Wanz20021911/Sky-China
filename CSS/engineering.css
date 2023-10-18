@@ -56,9 +56,9 @@
     text-align: left;
 }
 p{
-    color: var(--pblue);
     font-size:14px;
     line-height:1.8em;
+    text-indent:2em;/*空格*/
 }
 #engineering-content-section .section-content {
     display:none;
@@ -210,6 +210,39 @@ p{
   padding: 1rem;
   border-top: 1px solid #e9ecef
 }
+.modal-body .figure{
+  color: #ccc;
+  text-align: center;
+}
+.modal-body img{
+  width:50%;
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  margin:20px auto;
+}
+.eng-p-design,.eng-p-build,.eng-p-test,.eng-p-learn{
+color: #b97500;
+margin: 10px 0;
+font-weight: 700;
+font-size:24px;
+}
+.eng-p-design::before {  
+content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/design.svg')!important;   
+margin-right: 2px;
+}
+.eng-p-build::before {  
+content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/build.svg')!important;   
+margin-right: 2px;
+}
+.eng-p-test::before {  
+content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/test.svg')!important;   
+margin-right: 2px;
+}
+.eng-p-learn::before {  
+content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/learning.svg')!important;   
+margin-right: 2px;
+}
 
 .modal-footer>:not(:first-child) {
   margin-left: .25rem
@@ -320,4 +353,3 @@ p{
     content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/action-plan.svg')!important;   
     margin-right: 2px;
   }
-
