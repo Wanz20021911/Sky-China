@@ -5,7 +5,7 @@ body,ul,li,a{
     text-decoration: none;				
 }/*取消所有表格的格式*/
 body{
-    background-image: url(https://static.igem.wiki/teams/4927/wiki/home/background-bg.jpg);
+    background-image: url(https://static.igem.wiki/teams/4927/wiki/home/background1.png);
 	/* background-color:#6f4e4e; */
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -13,7 +13,7 @@ body{
     scroll-behavior: smooth;
     scroll-padding-top: 90px;/*防止导航栏覆盖*/
 }
-.content-introduction::before{
+/* .content-introduction::before{
 	content:"";
 	position:fixed;
 	top:0;
@@ -23,7 +23,7 @@ body{
 	background-color:rgb(255 255 255 / 55%);
 	transition:opacity.5s;
 	z-index:-1000;
-}
+} */
 header{
     height: 68px!important;
 }
@@ -184,14 +184,14 @@ html{
     /* margin-top: 160px; */
 }
 .introduction{
-    /* width: 100%;*/
+    /* width: 100%; */
     width: 80%;
     flex: 0 0 auto;
-    margin: 0 auto; 
+    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 6vh;
+    /* margin-top: 6vh; */
     opacity: 0;
 }
 @keyframes floatup {
@@ -243,6 +243,7 @@ html{
     /* transform: scale(1.8); */
     letter-spacing: 1px;
     word-spacing: 2px;
+    /*text-transform:lowercase;/*仅有小写*/
     margin: 30px 0;
     line-height: 1.5!important;
     opacity: var(--progress);
@@ -273,21 +274,21 @@ html{
     transform: scale(1);
 
 }
-#mei{
+/* #mei{
     transform: scale(1.8)!important;
-}
+} */
 #mei.active{
     opacity: 1;
     animation: floatRightEnter 0.8s ease-in-out!important;
 }
 
 .introduction_figure img{
-    height: 160px;
+    height: 200px;
     margin-top: 20px;
     margin-bottom: 15px;
     /* border:1px solid #0de122; */
     /* transform: scale(1.8); */
-    transform: translateY(calc(-60px * (1 - var(--progress)))) scale(calc(1.8 - (0.8 * var(--progress)))) ;
+    transform: translateY(calc(-60px * (1 - var(--progress)))) scale(calc(1.8 - (0.8 * var(--progress))));
     opacity: var(--progress);
 }
 .plan{
@@ -300,14 +301,14 @@ html{
 .plan_con{
     width: 80%;
     flex: 0 0 auto;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
-#plan_con{
-    margin-bottom: -10px;
+#plan_con:nth-child(2){
+    margin-bottom: 50px;
 }
 .introduction_plan{
     text-align: center;
-    margin: 6vh 0;
+    /* margin: 6vh 0; */
 }
 .introduction_plan p{
     color: var(--cyan);
@@ -315,12 +316,12 @@ html{
 	font-size: 16px;
 }
 .plan_figure{
-    margin: 4vh 0;
-    transform: scale(1.2);
+    /* margin: 4vh 0; */
+    /* transform: scale(1.4); */
 }
 .plan_figure img{
     /* width: 80%; */
-    height: 150px;
+    height: 350px;
 }
 .heading{
     text-align: center;
@@ -429,8 +430,6 @@ html{
     font-size: 1.5rem;
     text-decoration: line-through;
 }
-
-
 
 #video{
     width:80%;
