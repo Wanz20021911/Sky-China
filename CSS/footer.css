@@ -355,29 +355,28 @@ img {
     height: 60px;
     background: #ffffff00
 }
-
 .chong_member{
     position: fixed;
-    bottom:-150px;
-    right: -120px;
-    
+    bottom:-10px;
+    right: -20px;
 }
 .chong_menu{
     flex-wrap: wrap;
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
+    transform:scale(0.8);
     /* background: #8460ed; */
     display: flex;
     justify-content: center;
     align-items: center;
     /* margin-bottom: 50px;
     margin-top: -50px; */
-    
 }
 .chong_menu li{
     position: absolute;
-    left: 150px;
+    left: -5px;
+    top:85px;
     list-style: none;
     transform-origin: 100px;
     transition: 0.5s linear;
@@ -389,7 +388,7 @@ img {
 }
 .chong_menu .mImg li img{
     border-radius: 50%;
-    width: 35px;
+    width: 40px;
     transform: rotate(calc(360deg/-8*var(--i)));
 }
 
@@ -404,7 +403,7 @@ img {
     transition: 1.2s ease-in-out;
 }
 .chong_toggle>img{
-    height: 140px;
+    height: 170px;
     -webkit-user-drag: none;
     margin-top: 45px;
     margin-left: 14px;
