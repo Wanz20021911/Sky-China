@@ -375,8 +375,6 @@ transition: color .15s ease-in-out,background-color .15s ease-in-out,border-colo
 cursor: pointer;
 }
 
-
-
 .hp-p-purpose,.hp-p-Method,.hp-p-Contribution,.hp-p-Outlook{
   color: #b97500;
   margin: 10px 0;
@@ -384,19 +382,19 @@ cursor: pointer;
   font-size:24px;
 }
 .hp-p-purpose::before {  
-  content: url('purpose.svg')!important;   
+  content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/purpose.svg')!important;   
   margin-right: 2px;
 }
 .hp-p-Method::before {  
-  content: url('method.svg')!important;   
+  content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/method.svg')!important;   
   margin-right: 2px;
 }
 .hp-p-Contribution::before {  
-  content: url('contribution.svg')!important;   
+  content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/contribution.svg')!important;   
   margin-right: 2px;
 }
 .hp-p-Outlook::before {  
-  content: url('outlook.svg')!important;   
+  content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/outlook.svg')!important;   
   margin-right: 2px;
 }
 /* .modal-body p::before {  
@@ -411,29 +409,42 @@ cursor: pointer;
   width:100%;
 }
 /*mileston*/
-hp-p-Description,hp-p-Feelings,hp-p-Analysis,hp-p-Conclusion,hp-p-Action_Plan{
-  color: #149950;
-  margin: 10px 0;
-  font-weight: 700;
-  font-size:24px;
+.hp-p-Description,.hp-p-Description,.hp-p-Feelings,.hp-p-Analysis,.hp-p-Conclusion,.hp-p-Action_Plan{
+  color: #149950!important;
+  margin: 10px 0!important;
+  font-weight: 700!important;
+  font-size: 24px !important;;
 }
-hp-p-Description::before {  
-  content: url('purpose.svg')!important;   
-  margin-right: 2px;
+.hp-p-Description::before {  
+  content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/description.svg')!important;   
+  margin-right: 2px!important;
 }
-hp-p-Feelings::before {  
-  content: url('purpose.svg')!important;   
-  margin-right: 2px;
+.hp-p-Feelings::before {  
+  content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/feel.svg')!important;   
+  margin-right: 2px!important;
 }
-hp-p-Analysis::before {  
-  content: url('purpose.svg')!important;   
-  margin-right: 2px;
+.hp-p-Analysis::before {  
+  content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/analysis.svg')!important;   
+  margin-right: 2px!important;
 }
-hp-p-Conclusion::before {  
-  content: url('purpose.svg')!important;   
-  margin-right: 2px;
+.hp-p-Conclusion::before {  
+  content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/conclusion.svg')!important;   
+  margin-right: 2px!important;
 }
-hp-p-Action_Plan::before {  
-  content: url('purpose.svg')!important;   
-  margin-right: 2px;
+.hp-p-Action_Plan::before {  
+  content: url('https://static.igem.wiki/teams/4927/wiki/hp/svg/action-plan.svg')!important;   
+  margin-right: 2px!important;
+}
+
+.figure{
+  color: #ccc;
+  text-align: center;
+}
+
+#title .heading span{
+  font-size: 3rem;
+  background: rgb(0 0 0 / 60%);
+  color:var(--orange);
+  border-radius: .5rem;
+  padding:.2rem 1rem;
 }
