@@ -88,11 +88,12 @@ table{
 }
 
 .accordion {
-    width: 800px;
-    margin: 90px auto;
-    color: blue;
-    background-color: white;
-    padding: 45px 45px;
+    /* width: 800px; */
+    /* margin: 90px auto; */
+    /* color: blue; */
+    /* background-color: white; */
+    /* padding: 45px 45px; */
+    padding:20px 0px;
 }
 
 /*定位*/
@@ -107,7 +108,7 @@ table{
     position: relative;
     padding: 10px 0;
     font-size: 20px;
-    color: blue;
+/*     color: blue; */
     cursor: pointer;
 }
 
@@ -131,7 +132,7 @@ table{
     height: 0;
     font-size: 20px;
     text-align: justify;
-    width: 780px;
+    /* width: 780px; */
     overflow: hidden;
     transition: 0.5s;
 }
